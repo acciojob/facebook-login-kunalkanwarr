@@ -1,1 +1,85 @@
-/*  your css code here. If applicable */
+/* Global Styles */
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  width: 450px;
+  margin-top: 70px;
+  display: inline-block;
+}
+
+.left .logo {
+  width: 200px;
+}
+
+.left p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  gap: 10px;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #1877f2;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1877f2;
+  font-size: 12px;
+  text-align: center;
+}
+
+.signup {
+  background-color: #42b72a;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+}
